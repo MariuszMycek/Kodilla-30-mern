@@ -1,5 +1,5 @@
 .header {
-  background: #eee url('../../header-bk.png') center;
+  background: #eee url('./header-bk.png') center;
   background-size: cover;
   border-bottom: 1px solid #ccc;
 }
@@ -20,13 +20,13 @@
 
 .site-title a {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 
 .add-post-button {
   display: inline-block;
-  color: #FFF;
-  background: #03A9F4;
+  color: #fff;
+  background: #03a9f4;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 1000px;
@@ -60,8 +60,8 @@
   border-bottom: 1px solid #fff;
 }
 
-@media (max-width: 767px){
-  .add-post-button{
+@media (max-width: 767px) {
+  .add-post-button {
     float: left;
     margin-top: 16px;
   }
