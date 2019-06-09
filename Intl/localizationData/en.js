@@ -8,7 +8,7 @@ export default {
     by: 'By',
     deletePost: 'Delete Post',
     createNewPost: 'Create new post',
-    authorName: 'Author\'s Name',
+    authorName: "Author's Name",
     postTitle: 'Post Title',
     postContent: 'Post Content',
     submit: 'Submit',
@@ -28,5 +28,10 @@ export default {
     	  =1 {has # comment}
     	  other {has # comments}
     	} as of {date}`,
+  },
+  navbar: {
+    home: 'Home',
+    about: 'About',
+    posts: 'Posts',
   },
 };

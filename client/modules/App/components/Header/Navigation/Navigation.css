@@ -1,0 +1,18 @@
+.nav-links ul {
+  list-style: none;
+  /* width: 480px; */
+  margin: 0 60px;
+  text-align: left;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-links li:hover {
+  border-bottom: 1px solid #fff;
+}

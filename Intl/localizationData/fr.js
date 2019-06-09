@@ -8,8 +8,8 @@ export default {
     by: 'Par',
     deletePost: 'Supprimer le message',
     createNewPost: 'Créer un nouveau message',
-    authorName: 'Nom de l\'auteur',
-    postTitle: 'Titre de l\'article',
+    authorName: "Nom de l'auteur",
+    postTitle: "Titre de l'article",
     postContent: 'Contenu après',
     submit: 'Soumettre',
     editPost: 'Edit Post',
@@ -28,5 +28,10 @@ export default {
   		  =1 {has # comment}
   		  other {has # comments}
   		} as of {date} (in real app this would be translated to French)`,
+  },
+  navbar: {
+    home: 'Accueil',
+    about: 'Qui suis je',
+    posts: 'Posters',
   },
 };

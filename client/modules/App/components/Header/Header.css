@@ -1,9 +1,13 @@
 .header {
-  background: #eee url('./header-bk.png') center;
+  background: #eee url('../../header-bk.png') center;
   background-size: cover;
   border-bottom: 1px solid #ccc;
 }
-
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.1);
+}
 .content {
   width: 100%;
   max-width: 980px;
@@ -33,13 +37,9 @@
   float: right;
 }
 
-.language-switcher {
-  background: rgba(0, 0, 0, 0.1);
-}
-
 .language-switcher ul {
   list-style: none;
-  width: 980px;
+  width: 480px;
   margin: auto;
   text-align: right;
 }
